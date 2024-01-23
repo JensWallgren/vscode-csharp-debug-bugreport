@@ -1,8 +1,8 @@
 
 var writer = new Writer("Hello, world!");
 
-// Here everything works as expected:
+// Step in here: everything works as expected:
 writer.Write();
 
-// But here the parameters are not "watch-able":
+// But step here: the parameters are not "watch-able":
 await writer.WriteAsync();
